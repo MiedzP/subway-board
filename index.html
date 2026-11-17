@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Next Trains</title>
+<style>
+  :root {
+    --bg: #0b0d10;
+    --panel: #161a20;
+    --text: #f4f5f7;
+    --muted: #8a93a2;
+    --soon: #ff5d4d;
+    --line: #242a33;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; }
+  body { padding: 3vh 4vw; display: flex; flex-direction: column; gap: 3vh; min-height: 100vh; }
+
+  header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+  .title { display: flex; flex-direction: column; min-width: 0; }
+  h1 { margin: 0; font-size: clamp(1.8rem, 4.5vw, 4rem); font-weight: 700; letter-spacing: -0.01em; overflow-wrap: anywhere; }
+  .clock { font-size: clamp(1.6rem, 3.5vw, 3rem); font-variant-numeric: tabular-nums; color: var(--muted); }
+  .status { font-size: clamp(0.9rem, 1.6vw, 1.2rem); color: var(--muted); width: 100%; }
+  .status.bad { color: var(--soon); }
+
+  .picker { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
+  .search { position: relative; min-width: min(100%, 320px); }
+  .picker input {
+    font: inherit; font-size: 1rem; padding: .55rem .8rem; border-radius: 10px; width: 100%;
+    background: var(--panel); color: var(--text); border: 1px solid var(--line);
+  }
+  .results {
+    position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 10; margin: 0; padding: 4px;
+    list-style: none; background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    max-height: 60vh; overflow-y: auto; box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  }
+  .results:empty { display: none; }
+  .results li { padding: .5rem .6rem; border-radius: 8px; cursor: pointer; display: flex; justify-content: space-between; gap: .75rem; }
+  .results li:hover, .results li.active { background: var(--line); }
+  .results .meta { color: var(--muted); font-size: .85rem; white-space: nowrap; }
+  .results .nolive { color: var(--muted); font-style: italic; }
+  .picker button {
+    font: inherit; padding: .55rem .9rem; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--panel); color: var(--text); cursor: pointer;
+  }
+
+  .slider { display: flex; flex-direction: column; gap: .3rem; color: var(--muted); font-size: .95rem; min-width: min(100%, 260px); }
+  .slider input { width: 100%; accent-color: var(--text); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 3vh 3vw; flex: 1; }
+  .panel { background: var(--panel); border-radius: 18px; padding: 2.2vh 2.4vw; display: flex; flex-direction: column; }
+  .panel h2 { margin: 0 0 1.5vh; font-size: clamp(1.2rem, 2.4vw, 1.9rem); font-weight: 600; color: var(--muted); }
+
+  .train { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 1.4vw;
+    padding: 1.4vh 0; border-top: 1px solid var(--line); }
+  .train:first-of-type { border-top: none; }
+  .bullet { width: clamp(52px, 6vw, 84px); height: clamp(52px, 6vw, 84px); border-radius: 50%;
+    background: var(--c, #888); color: var(--fg, #fff); font-weight: 800; display: grid; place-items: center;
+    font-size: clamp(1.4rem, 3vw, 2.6rem); }
+  .when { font-size: clamp(2.4rem, 6vw, 5rem); font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
+  .when small { font-size: 0.38em; font-weight: 500; color: var(--muted); margin-left: 0.2em; }
+  .when.soon { color: var(--soon); }
+  .clock-time { font-size: clamp(1rem, 1.8vw, 1.4rem); color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; min-width: 6.5ch; }
+  .empty { color: var(--muted); font-size: clamp(1rem, 2vw, 1.4rem); padding: 2vh 0; }
+
+  footer { color: var(--muted); font-size: clamp(0.8rem, 1.2vw, 1rem); }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #f3f4f6; --panel: #ffffff; --text: #111418; --muted: #5b6472; --line: #e3e6eb;
+    }
+  }
+  :root[data-theme="light"] { --bg: #f3f4f6; --panel: #ffffff; --text: #111418; --muted: #5b6472; --line: #e3e6eb; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="title">
+      <h1 id="station-name">Choose a station</h1>
+    </div>
+    <div class="clock" id="clock">--:--:--</div>
+    <form class="picker" id="picker" autocomplete="off">
+      <div class="search">
+        <input id="station-input" placeholder="Search stations…" aria-label="Search stations" aria-autocomplete="list" aria-controls="results">
+        <ul class="results" id="results" role="listbox"></ul>
+      </div>
+    </form>
+    <label class="slider">
+      <span>Trains per direction: <strong id="count-val">5</strong></span>
+      <input type="range" id="count" min="1" max="20" value="5">
+    </label>
+    <div class="status" id="status">Loading…</div>
+  </header>
+
+  <main class="grid" id="grid"></main>
+
+  <footer>Live data: MTA GTFS-realtime feeds. Countdowns update every second; data refreshes every 15 s.
+    Tip: open <code>?station=ID</code> to pin a station for a wall screen.</footer>
+
+<script>
+  const REFRESH_MS = 15000;
+  const LAST_KEY = "subwayBoard.station";
+  const COUNT_KEY = "subwayBoard.count";
+  const countInput = document.getElementById("count");
+  const countVal = document.getElementById("count-val");
+  let trainCount = 5;
+  const ROUTE_STYLE = {
+    "1": ["#EE352E", "#fff"], "2": ["#EE352E", "#fff"], "3": ["#EE352E", "#fff"],
+    "4": ["#00933C", "#fff"], "5": ["#00933C", "#fff"], "6": ["#00933C", "#fff"],
+    "7": ["#B933AD", "#fff"], "7X": ["#B933AD", "#fff"],
+    "A": ["#0039A6", "#fff"], "C": ["#0039A6", "#fff"], "E": ["#0039A6", "#fff"],
+    "B": ["#FF6319", "#fff"], "D": ["#FF6319", "#fff"], "F": ["#FF6319", "#fff"], "M": ["#FF6319", "#fff"],
+    "G": ["#6CBE45", "#fff"],
+    "J": ["#996633", "#fff"], "Z": ["#996633", "#fff"],
+    "L": ["#A7A9AC", "#000"],
+    "N": ["#FCCC0A", "#000"], "Q": ["#FCCC0A", "#000"], "R": ["#FCCC0A", "#000"], "W": ["#FCCC0A", "#000"],
+    "S": ["#808183", "#fff"], "FS": ["#808183", "#fff"], "GS": ["#808183", "#fff"], "H": ["#808183", "#fff"],
+    "SI": ["#0039A6", "#fff"],
+  };
+
+  const $ = id => document.getElementById(id);
+  const grid = $("grid"), clockEl = $("clock"), statusEl = $("status");
+  const nameEl = $("station-name"), input = $("station-input"), resultsEl = $("results");
+  let stations = [];          // [{id, name, borough, lines, live}]
+  let matches = [];           // current search results
+  let activeIdx = 0;
+  let stationId = null;
+  let data = null;
+
+  function fmtClock(d) { return d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit", second: "2-digit" }); }
+  function fmtMin(d) { return d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }); }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  }
+  function storeGet(k) { try { return localStorage.getItem(k); } catch { return null; } }
+  function storeSet(k, v) { try { localStorage.setItem(k, v); } catch {} }
+
+  function whenHtml(secs) {
+    if (secs <= 30) return { html: "Due", cls: "soon" };
+    const mins = Math.floor(secs / 60);
+    return { html: `${mins}<small>min</small>`, cls: mins < 10 ? "soon" : "" };
+  }
+
+  function bulletStyle(route) {
+    const [bg, fg] = ROUTE_STYLE[route] || ["#888", "#fff"];
+    return `--c:${bg};--fg:${fg}`;
+  }
+
+  function render() {
+    clockEl.textContent = fmtClock(new Date());
+    if (!data || !data.directions) return;
+    const now = Date.now() / 1000;
+
+    grid.innerHTML = data.directions.map(dir => {
+      const rows = dir.trains.map(t => ({ ...t, secs: t.arrival - now })).filter(t => t.secs > -30);
+      const body = rows.length
+        ? rows.map(t => {
+            const w = whenHtml(t.secs);
+            return `<div class="train">
+                      <div class="bullet" style="${bulletStyle(t.route)}">${esc(t.route)}</div>
+                      <div class="when ${w.cls}">${w.html}</div>
+                      <div class="clock-time">${fmtMin(new Date(t.arrival * 1000))}</div>
+                    </div>`;
+          }).join("")
+        : `<div class="empty">No trains scheduled in the next few minutes.</div>`;
+      return `<section class="panel"><h2>${esc(dir.label)}</h2>${body}</section>`;
+    }).join("");
+  }
+
+  async function loadArrivals() {
+    if (!stationId) return;
+    try {
+      const r = await fetch(`/api/arrivals?station=${encodeURIComponent(stationId)}&count=${trainCount}`, { cache: "no-store" });
+      const json = await r.json();
+      if (!r.ok || json.error) throw new Error(json.error || `HTTP ${r.status}`);
+      data = json;
+      nameEl.textContent = json.station.name;
+      document.title = `${json.station.name} · Next Trains`;
+      statusEl.className = "status";
+      statusEl.textContent = `Updated ${fmtClock(new Date(json.generated_at * 1000))}` +
+        (json.feed_errors && json.feed_errors.length ? ` · some feeds unavailable` : "");
+    } catch (err) {
+      statusEl.className = "status bad";
+      statusEl.textContent = `Live data unavailable (${err.message}). Retrying…`;
+    }
+    render();
+  }
+
+  function setStation(id, { push = true } = {}) {
+    const st = stations.find(s => s.id === id);
+    if (!st) return false;
+    stationId = id;
+    data = null;
+    input.value = "";
+    input.placeholder = `Showing: ${st.name}`;
+    closeResults();
+    nameEl.textContent = st.name;
+    storeSet(LAST_KEY, id);
+    if (push) history.replaceState(null, "", `?station=${encodeURIComponent(id)}`);
+    loadArrivals();
+    return true;
+  }
+
+  // Search: every word typed must appear in the name, lines or borough. Names starting with the query rank first.
+  function searchStations(query) {
+    const words = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    if (!words.length) return [];
+    const scored = [];
+    for (const s of stations) {
+      const hay = `${s.name} ${s.lines.join(" ")} ${s.borough}`.toLowerCase();
+      if (!words.every(w => hay.includes(w))) continue;
+      const score = s.name.toLowerCase().startsWith(words[0]) ? 0 : 1;
+      scored.push({ s, score });
+    }
+    scored.sort((a, b) => a.score - b.score || a.s.name.localeCompare(b.s.name));
+    return scored.slice(0, 8).map(x => x.s);
+  }
+
+  function renderResults(query) {
+    matches = query ? searchStations(query) : [];
+    activeIdx = 0;
+    if (!matches.length) {
+      resultsEl.innerHTML = query ? `<li class="nolive">No station matches "${esc(query)}"</li>` : "";
+      return;
+    }
+    resultsEl.innerHTML = matches.map((s, i) => `
+      <li role="option" data-idx="${i}" class="${i === 0 ? "active" : ""}">
+        <span>${esc(s.name)}</span>
+        <span class="meta">${s.live ? esc(s.lines.join(", ") || s.borough) : "<span class='nolive'>no live data</span>"}</span>
+      </li>`).join("");
+  }
+
+  function closeResults() {
+    resultsEl.innerHTML = "";
+    matches = [];
+  }
+
+  function choose(idx) {
+    const st = matches[idx];
+    if (st) setStation(st.id);
+  }
+
+  input.addEventListener("input", () => renderResults(input.value));
+  input.addEventListener("keydown", e => {
+    if (!matches.length) return;
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      activeIdx = (activeIdx + (e.key === "ArrowDown" ? 1 : -1) + matches.length) % matches.length;
+      [...resultsEl.children].forEach((li, i) => li.classList.toggle("active", i === activeIdx));
+    } else if (e.key === "Escape") {
+      closeResults();
+    }
+  });
+  resultsEl.addEventListener("mousedown", e => {   // mousedown beats the input's blur
+    const li = e.target.closest("li[data-idx]");
+    if (!li) return;
+    e.preventDefault();
+    choose(Number(li.dataset.idx));
+  });
+  input.addEventListener("blur", () => setTimeout(closeResults, 150));
+
+  $("picker").addEventListener("submit", e => {
+    e.preventDefault();
+    if (matches.length) choose(activeIdx);
+    else statusEl.textContent = "No station matches that search.";
+  });
+
+  async function init() {
+    setInterval(() => { clockEl.textContent = fmtClock(new Date()); render(); }, 1000);
+    try {
+      const r = await fetch("/api/stations", { cache: "force-cache" });
+      stations = await r.json();
+    } catch (err) {
+      statusEl.className = "status bad";
+      statusEl.textContent = `Could not load station list: ${err.message}`;
+      return;
+    }
+    const fromUrl = new URLSearchParams(location.search).get("station");
+    const start = [fromUrl, storeGet(LAST_KEY), "30th-avenue"]
+      .find(id => id && stations.some(s => s.id === id));
+    if (start) setStation(start, { push: !fromUrl });
+    setInterval(loadArrivals, REFRESH_MS);
+  }
+
+  // Slider: update the number shown immediately, refetch when released.
+  countInput.addEventListener("input", () => { countVal.textContent = countInput.value; });
+  countInput.addEventListener("change", () => {
+    trainCount = Number(countInput.value);
+    storeSet(COUNT_KEY, String(trainCount));
+    loadArrivals();
+  });
+  const savedCount = Number(storeGet(COUNT_KEY));
+  if (savedCount >= 1 && savedCount <= 20) {
+    trainCount = savedCount;
+    countInput.value = savedCount;
+    countVal.textContent = savedCount;
+  }
+  init();
+</script>
+</body>
+</html>

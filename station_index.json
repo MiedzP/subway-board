@@ -1,0 +1,4312 @@
+[
+ {
+  "id": "103rd-street",
+  "name": "103rd Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line",
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "119",
+   "624",
+   "A18"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "103rd-street-corona-plaza",
+  "name": "103rd Street–Corona Plaza",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "706"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "104th-street",
+  "name": "104th Street",
+  "borough": "Queens",
+  "lines": [
+   "Fulton Street Line",
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "A63",
+   "J14"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "110th-street",
+  "name": "110th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "623"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "110th-street-malcolm-x-plaza",
+  "name": "110th Street–Malcolm X Plaza",
+  "borough": "Manhattan",
+  "lines": [
+   "Lenox Avenue Line"
+  ],
+  "mta_ids": [
+   "227"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "111th-street",
+  "name": "111th Street",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line",
+   "Fulton Street Line",
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "705",
+   "A64",
+   "J13"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "116th-street",
+  "name": "116th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line",
+   "Lenox Avenue Line",
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "226",
+   "622",
+   "A16"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "116th-street-columbia-university",
+  "name": "116th Street–Columbia University",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "117"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "121st-street",
+  "name": "121st Street",
+  "borough": "Queens",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J12"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "125th-street",
+  "name": "125th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line",
+   "Lenox Avenue Line",
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "116",
+   "225",
+   "621",
+   "A15"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "135th-street",
+  "name": "135th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line",
+   "Lenox Avenue Line"
+  ],
+  "mta_ids": [
+   "224",
+   "A14"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "137th-street-city-college",
+  "name": "137th Street–City College",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "115"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "138th-street-grand-concourse",
+  "name": "138th Street–Grand Concourse",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "416"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "145th-street",
+  "name": "145th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Lenox Avenue Line"
+  ],
+  "mta_ids": [
+   "114",
+   "302",
+   "A12",
+   "D13"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "145th-street",
+  "name": "145th Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line,Concourse Line"
+  ],
+  "mta_ids": [
+   "114",
+   "302",
+   "A12",
+   "D13"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "149th-street-hostos",
+  "name": "149th Street–Hostos",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "222",
+   "415"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "14th-street-eighth-avenue",
+  "name": "14th Street/Eighth Avenue†",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "132",
+   "A31",
+   "D19"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "14th-street-sixth-avenue",
+  "name": "14th Street/Sixth Avenue",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "132",
+   "A31",
+   "D19"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "14th-street-union-square",
+  "name": "14th Street–Union Square",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [
+   "635",
+   "L03",
+   "R20"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "155th-street",
+  "name": "155th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Concourse Line",
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A11",
+   "D12"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "157th-street",
+  "name": "157th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "113"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "15th-street-prospect-park",
+  "name": "15th Street–Prospect Park",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "F25"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "161st-street-yankee-stadium",
+  "name": "161st Street–Yankee Stadium",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line"
+  ],
+  "mta_ids": [
+   "414",
+   "D11"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "163rd-street-amsterdam-avenue",
+  "name": "163rd Street–Amsterdam Avenue",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A10"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "167th-street",
+  "name": "167th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line",
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "413",
+   "D10"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "168th-street",
+  "name": "168th Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A09"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "169th-street",
+  "name": "169th Street",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "F02"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "170th-street",
+  "name": "170th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line",
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "412",
+   "D09"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "174th-street",
+  "name": "174th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "215"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "174th-175th-streets",
+  "name": "174th–175th Streets",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "175th-street",
+  "name": "175th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A07"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "176th-street",
+  "name": "176th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "410"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "181st-street",
+  "name": "181st Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "111",
+   "A06"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "182nd-183rd-streets",
+  "name": "182nd–183rd Streets",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "183rd-street",
+  "name": "183rd Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "408"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "18th-avenue",
+  "name": "18th Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line",
+   "Sea Beach Line",
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B19",
+   "F30",
+   "N05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "18th-street",
+  "name": "18th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "131"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "190th-street",
+  "name": "190th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "191st-street",
+  "name": "191st Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "110"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "207th-street",
+  "name": "207th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "108"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "20th-avenue",
+  "name": "20th Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Sea Beach Line",
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B20",
+   "N06"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "215th-street",
+  "name": "215th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "107"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "219th-street",
+  "name": "219th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "207"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "21st-street",
+  "name": "21st Street",
+  "borough": "Queens",
+  "lines": [
+   "Crosstown Line"
+  ],
+  "mta_ids": [
+   "G24"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "21st-street-queensbridge",
+  "name": "21st Street–Queensbridge",
+  "borough": "Queens",
+  "lines": [
+   "63rd Street Line"
+  ],
+  "mta_ids": [
+   "B04"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "225th-street",
+  "name": "225th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "206"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "231st-street",
+  "name": "231st Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "104"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "233rd-street",
+  "name": "233rd Street",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "205"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "238th-street",
+  "name": "238th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "103"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "23rd-street",
+  "name": "23rd Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line",
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line",
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "130",
+   "A30",
+   "D18",
+   "R19"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "23rd-street-baruch-college",
+  "name": "23rd Street–Baruch College",
+  "borough": "Manhattan",
+  "lines": [
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "634"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "25th-avenue",
+  "name": "25th Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B22"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "25th-street",
+  "name": "25th Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "R35"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "28th-street",
+  "name": "28th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line",
+   "Broadway–Seventh Avenue Line",
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "129",
+   "633",
+   "R18"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "30th-avenue",
+  "name": "30th Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Astoria Line"
+  ],
+  "mta_ids": [
+   "R04"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "33rd-street",
+  "name": "33rd Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "632"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "33rd-street-rawson-street",
+  "name": "33rd Street–Rawson Street",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "716"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "34th-street-herald-square",
+  "name": "34th Street–Herald Square",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "D17",
+   "R17"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "34th-street-hudson-yards",
+  "name": "34th Street–Hudson Yards†",
+  "borough": "Manhattan",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "726"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "34th-street-penn-station",
+  "name": "34th Street–Penn Station",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "128",
+   "A28"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "36th-avenue",
+  "name": "36th Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Astoria Line"
+  ],
+  "mta_ids": [
+   "R06"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "36th-street",
+  "name": "36th Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line",
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G20",
+   "R36"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "39th-avenue",
+  "name": "39th Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Astoria Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "40th-street-lowery-street",
+  "name": "40th Street–Lowery Street",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "715"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "42nd-street-bryant-park-fifth-avenue",
+  "name": "42nd Street–Bryant Park/Fifth Avenue",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "42nd-street-port-authority-bus-terminal",
+  "name": "42nd Street–Port Authority Bus Terminal",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A27"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "45th-street",
+  "name": "45th Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "R39"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "46th-street",
+  "name": "46th Street",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G18"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "46th-street-bliss-street",
+  "name": "46th Street–Bliss Street",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "714"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "47th-50th-streets-rockefeller-center",
+  "name": "47th–50th Streets–Rockefeller Center",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "D15"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "49th-street",
+  "name": "49th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [
+   "R15"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "50th-street",
+  "name": "50th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line,Queens Boulevard Line",
+   "West End Line"
+  ],
+  "mta_ids": [
+   "126",
+   "A25",
+   "B14"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "52nd-street",
+  "name": "52nd Street",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "713"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "53rd-street",
+  "name": "53rd Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "R40"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "55th-street",
+  "name": "55th Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B15"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "57th-street",
+  "name": "57th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "B10"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "57th-street-seventh-avenue",
+  "name": "57th Street–Seventh Avenue",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [
+   "R14"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "59th-street",
+  "name": "59th Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "629",
+   "R41"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "59th-street-columbus-circle",
+  "name": "59th Street–Columbus Circle",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "125",
+   "A24"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "61st-street-woodside",
+  "name": "61st Street–Woodside",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "712"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "62nd-street-new-utrecht-avenue",
+  "name": "62nd Street/New Utrecht Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Sea Beach Line"
+  ],
+  "mta_ids": [
+   "B16"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "63rd-drive-rego-park",
+  "name": "63rd Drive–Rego Park",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G10"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "65th-street",
+  "name": "65th Street",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G15"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "66th-street-lincoln-center",
+  "name": "66th Street–Lincoln Center",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "124"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "67th-avenue",
+  "name": "67th Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G09"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "68th-street-hunter-college",
+  "name": "68th Street–Hunter College",
+  "borough": "Manhattan",
+  "lines": [
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "628"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "69th-street",
+  "name": "69th Street",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "711"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "71st-street",
+  "name": "71st Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B17"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "72nd-street",
+  "name": "72nd Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line",
+   "Second Avenue Line"
+  ],
+  "mta_ids": [
+   "123",
+   "A22",
+   "Q03"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "75th-avenue",
+  "name": "75th Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "F07"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "75th-street-elderts-lane",
+  "name": "75th Street–Elderts Lane",
+  "borough": "Queens",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J17"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "77th-street",
+  "name": "77th Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line",
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "627",
+   "R43"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "79th-street",
+  "name": "79th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "West End Line"
+  ],
+  "mta_ids": [
+   "122",
+   "B18"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "80th-street",
+  "name": "80th Street",
+  "borough": "Queens",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A59"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "81st-street-museum-of-natural-history",
+  "name": "81st Street–Museum of Natural History",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A21"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "82nd-street-jackson-heights",
+  "name": "82nd Street–Jackson Heights",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "709"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "85th-street-forest-parkway",
+  "name": "85th Street–Forest Parkway",
+  "borough": "Queens",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J16"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "86th-street",
+  "name": "86th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line",
+   "Fourth Avenue Line",
+   "Lexington Avenue Line",
+   "Sea Beach Line",
+   "Second Avenue Line"
+  ],
+  "mta_ids": [
+   "121",
+   "626",
+   "A20",
+   "N10",
+   "Q04",
+   "R44"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "88th-street",
+  "name": "88th Street",
+  "borough": "Queens",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A60"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "90th-street-elmhurst-avenue",
+  "name": "90th Street–Elmhurst Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "708"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "96th-street",
+  "name": "96th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line",
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "120",
+   "625",
+   "A19",
+   "Q05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "96th-street",
+  "name": "96th Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Second Avenue Line"
+  ],
+  "mta_ids": [
+   "120",
+   "625",
+   "A19",
+   "Q05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "alabama-avenue",
+  "name": "Alabama Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J24"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "allerton-avenue",
+  "name": "Allerton Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "210"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "aqueduct-racetrack",
+  "name": "Aqueduct Racetrack",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H01"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "aqueduct-north-conduit-avenue",
+  "name": "Aqueduct–North Conduit Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H02"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "astor-place",
+  "name": "Astor Place",
+  "borough": "Manhattan",
+  "lines": [
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "636"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "astoria-boulevard",
+  "name": "Astoria Boulevard",
+  "borough": "Queens",
+  "lines": [
+   "Astoria Line"
+  ],
+  "mta_ids": [
+   "R03"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "astoria-ditmars-boulevard",
+  "name": "Astoria–Ditmars Boulevard†",
+  "borough": "Queens",
+  "lines": [
+   "Astoria Line"
+  ],
+  "mta_ids": [
+   "R01"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "atlantic-avenue",
+  "name": "Atlantic Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L24"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "atlantic-avenue-barclays-center",
+  "name": "Atlantic Avenue–Barclays Center",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "235",
+   "D24",
+   "R31"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "avenue-h",
+  "name": "Avenue H",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D32"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "avenue-i",
+  "name": "Avenue I",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "F31"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "avenue-j",
+  "name": "Avenue J",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D33"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "avenue-m",
+  "name": "Avenue M",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D34"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "avenue-n",
+  "name": "Avenue N",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "F33"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "avenue-p",
+  "name": "Avenue P",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "F34"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "avenue-u",
+  "name": "Avenue U",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line",
+   "Culver Line",
+   "Sea Beach Line"
+  ],
+  "mta_ids": [
+   "D37",
+   "F36",
+   "N09"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "avenue-x",
+  "name": "Avenue X",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "F38"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bay-50th-street",
+  "name": "Bay 50th Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B23"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bay-parkway",
+  "name": "Bay Parkway",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line",
+   "Sea Beach Line",
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B21",
+   "F32",
+   "N07"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bay-ridge-avenue",
+  "name": "Bay Ridge Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "R42"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bay-ridge-95th-street",
+  "name": "Bay Ridge–95th Street†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "R45"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "baychester-avenue",
+  "name": "Baychester Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Dyre Avenue Line"
+  ],
+  "mta_ids": [
+   "502"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beach-105th-street",
+  "name": "Beach 105th Street",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H14"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beach-25th-street",
+  "name": "Beach 25th Street",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H10"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beach-36th-street",
+  "name": "Beach 36th Street",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H09"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beach-44th-street",
+  "name": "Beach 44th Street",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H08"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beach-60th-street",
+  "name": "Beach 60th Street",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H07"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beach-67th-street",
+  "name": "Beach 67th Street",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H06"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beach-90th-street",
+  "name": "Beach 90th Street",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H12"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beach-98th-street",
+  "name": "Beach 98th Street",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H13"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bedford-avenue",
+  "name": "Bedford Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L08"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bedford-park-boulevard",
+  "name": "Bedford Park Boulevard",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line"
+  ],
+  "mta_ids": [
+   "D03"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bedford-park-boulevard-lehman-college",
+  "name": "Bedford Park Boulevard–Lehman College",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "405"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bedford-nostrand-avenues",
+  "name": "Bedford–Nostrand Avenues",
+  "borough": "Brooklyn",
+  "lines": [
+   "Crosstown Line"
+  ],
+  "mta_ids": [
+   "G33"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bergen-street",
+  "name": "Bergen Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line",
+   "Eastern Parkway Line"
+  ],
+  "mta_ids": [
+   "236",
+   "F20"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beverley-road",
+  "name": "Beverley Road",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D29"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "beverly-road",
+  "name": "Beverly Road",
+  "borough": "Brooklyn",
+  "lines": [
+   "Nostrand Avenue Line"
+  ],
+  "mta_ids": [
+   "245"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "borough-hall-court-street",
+  "name": "Borough Hall/Court Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "232",
+   "423"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "bowery",
+  "name": "Bowery",
+  "borough": "Manhattan",
+  "lines": [
+   "Nassau Street Line"
+  ],
+  "mta_ids": [
+   "M19"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bowling-green",
+  "name": "Bowling Green",
+  "borough": "Manhattan",
+  "lines": [
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "420"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "briarwood",
+  "name": "Briarwood",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "F05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "brighton-beach",
+  "name": "Brighton Beach†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D40"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "broad-channel",
+  "name": "Broad Channel†",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H04"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "broad-street",
+  "name": "Broad Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Nassau Street Line"
+  ],
+  "mta_ids": [
+   "M23"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "broadway",
+  "name": "Broadway",
+  "borough": "Queens",
+  "lines": [
+   "Astoria Line",
+   "Crosstown Line"
+  ],
+  "mta_ids": [
+   "G30",
+   "R05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "broadway-junction",
+  "name": "Broadway Junction",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "A51",
+   "J27",
+   "L22"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "broadway-lafayette-street-bleecker-street",
+  "name": "Broadway–Lafayette Street/Bleecker Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "G30",
+   "R05"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "bronx-park-east",
+  "name": "Bronx Park East",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "212"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "brook-avenue",
+  "name": "Brook Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "618"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "brooklyn-bridge-city-hall-chambers-street",
+  "name": "Brooklyn Bridge–City Hall/Chambers Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "buhre-avenue",
+  "name": "Buhre Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "602"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "burke-avenue",
+  "name": "Burke Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "209"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "burnside-avenue",
+  "name": "Burnside Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "409"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "bushwick-avenue-aberdeen-street",
+  "name": "Bushwick Avenue–Aberdeen Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L21"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "canal-street",
+  "name": "Canal Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line",
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "135",
+   "639",
+   "A34",
+   "M20",
+   "Q01",
+   "R23"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "canarsie-rockaway-parkway",
+  "name": "Canarsie–Rockaway Parkway†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L29"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "carroll-street",
+  "name": "Carroll Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "F21"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "castle-hill-avenue",
+  "name": "Castle Hill Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "607"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "cathedral-parkway-110th-street",
+  "name": "Cathedral Parkway–110th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "118",
+   "A17"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "central-avenue",
+  "name": "Central Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Myrtle Avenue Line"
+  ],
+  "mta_ids": [
+   "M10"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "chambers-street",
+  "name": "Chambers Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "137",
+   "A36",
+   "M21"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "chambers-street-world-trade-center-park-place-cortlandt-street",
+  "name": "Chambers Street–World Trade Center/Park Place/Cortlandt Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "137",
+   "A36",
+   "M21"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "chauncey-street",
+  "name": "Chauncey Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J28"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "christopher-street-stonewall",
+  "name": "Christopher Street–Stonewall",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "133"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "church-avenue",
+  "name": "Church Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line",
+   "Nostrand Avenue Line"
+  ],
+  "mta_ids": [
+   "244",
+   "D28",
+   "F27"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "church-avenue",
+  "name": "Church Avenue†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "244",
+   "D28",
+   "F27"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "city-hall",
+  "name": "City Hall",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [
+   "R24"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "clark-street",
+  "name": "Clark Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "231"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "classon-avenue",
+  "name": "Classon Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Crosstown Line"
+  ],
+  "mta_ids": [
+   "G34"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "cleveland-street",
+  "name": "Cleveland Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J22"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "clinton-washington-avenues",
+  "name": "Clinton–Washington Avenues",
+  "borough": "Brooklyn",
+  "lines": [
+   "Crosstown Line",
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A44",
+   "G35"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "cortelyou-road",
+  "name": "Cortelyou Road",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D30"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "court-square",
+  "name": "Court Square†",
+  "borough": "Queens",
+  "lines": [
+   "Crosstown Line"
+  ],
+  "mta_ids": [
+   "719",
+   "G22"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "crescent-street",
+  "name": "Crescent Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J20"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "crown-heights-utica-avenue",
+  "name": "Crown Heights–Utica Avenue†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eastern Parkway Line"
+  ],
+  "mta_ids": [
+   "250"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "cypress-avenue",
+  "name": "Cypress Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "617"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "cypress-hills",
+  "name": "Cypress Hills",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J19"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "dekalb-avenue",
+  "name": "DeKalb Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line",
+   "Fourth Avenue Line,Brighton Line"
+  ],
+  "mta_ids": [
+   "L16",
+   "R30"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "delancey-street-essex-street",
+  "name": "Delancey Street/Essex Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "F15",
+   "M18"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "ditmas-avenue",
+  "name": "Ditmas Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "F29"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "dyckman-street",
+  "name": "Dyckman Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "109",
+   "A03"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "east-105th-street",
+  "name": "East 105th Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L28"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "east-143rd-street-st-mary-s-street",
+  "name": "East 143rd Street–St. Mary's Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "616"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "east-149th-street",
+  "name": "East 149th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "615"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "east-180th-street",
+  "name": "East 180th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "213"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "east-broadway",
+  "name": "East Broadway",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "F16"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "eastchester-dyre-avenue",
+  "name": "Eastchester–Dyre Avenue†",
+  "borough": "The Bronx",
+  "lines": [
+   "Dyre Avenue Line"
+  ],
+  "mta_ids": [
+   "501"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "eastern-parkway-brooklyn-museum",
+  "name": "Eastern Parkway–Brooklyn Museum",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eastern Parkway Line"
+  ],
+  "mta_ids": [
+   "238"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "eighth-avenue",
+  "name": "Eighth Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Sea Beach Line"
+  ],
+  "mta_ids": [
+   "L01",
+   "N02"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "eighth-street-new-york-university",
+  "name": "Eighth Street–New York University",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "elder-avenue",
+  "name": "Elder Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "611"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "elmhurst-avenue",
+  "name": "Elmhurst Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G13"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "euclid-avenue",
+  "name": "Euclid Avenue†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A55"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "far-rockaway-mott-avenue",
+  "name": "Far Rockaway–Mott Avenue†",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H11"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "fifth-avenue-53rd-street",
+  "name": "Fifth Avenue/53rd Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "F12"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "fifth-avenue-59th-street",
+  "name": "Fifth Avenue–59th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [
+   "R13"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "first-avenue",
+  "name": "First Avenue",
+  "borough": "Manhattan",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L06"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "flatbush-avenue-brooklyn-college",
+  "name": "Flatbush Avenue–Brooklyn College†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Nostrand Avenue Line"
+  ],
+  "mta_ids": [
+   "247"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "flushing-avenue",
+  "name": "Flushing Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Crosstown Line",
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "G31",
+   "M12"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "flushing-main-street",
+  "name": "Flushing–Main Street†",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "701"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "fordham-road",
+  "name": "Fordham Road",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line",
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "407",
+   "D05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "forest-avenue",
+  "name": "Forest Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Myrtle Avenue Line"
+  ],
+  "mta_ids": [
+   "M05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "forest-hills-71st-avenue",
+  "name": "Forest Hills–71st Avenue†",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G08"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "fort-hamilton-parkway",
+  "name": "Fort Hamilton Parkway",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line",
+   "Sea Beach Line",
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B13",
+   "F26",
+   "N03"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "fourth-avenue-ninth-street",
+  "name": "Fourth Avenue/Ninth Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "F23",
+   "R33"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "franklin-avenue-botanic-garden",
+  "name": "Franklin Avenue/Botanic Garden",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eastern Parkway Line"
+  ],
+  "mta_ids": [
+   "A45",
+   "S01"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "franklin-avenue",
+  "name": "Franklin Avenue†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Franklin Avenue Line"
+  ],
+  "mta_ids": [
+   "A45",
+   "S01"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "franklin-street",
+  "name": "Franklin Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "136"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "freeman-street",
+  "name": "Freeman Street",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "216"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "fresh-pond-road",
+  "name": "Fresh Pond Road",
+  "borough": "Queens",
+  "lines": [
+   "Myrtle Avenue Line"
+  ],
+  "mta_ids": [
+   "M04"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "fulton-street",
+  "name": "Fulton Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Crosstown Line",
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "229",
+   "418",
+   "A38",
+   "G36",
+   "M22"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "gates-avenue",
+  "name": "Gates Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J30"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "graham-avenue",
+  "name": "Graham Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L11"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "grand-army-plaza",
+  "name": "Grand Army Plaza",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eastern Parkway Line"
+  ],
+  "mta_ids": [
+   "237"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "grand-avenue-newtown",
+  "name": "Grand Avenue–Newtown",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G12"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "grand-central-42nd-street",
+  "name": "Grand Central–42nd Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "42nd Street Line"
+  ],
+  "mta_ids": [
+   "631",
+   "723",
+   "901"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "grand-street",
+  "name": "Grand Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Canarsie Line",
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "D22",
+   "L12"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "grant-avenue",
+  "name": "Grant Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A57"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "greenpoint-avenue",
+  "name": "Greenpoint Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Crosstown Line"
+  ],
+  "mta_ids": [
+   "G26"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "gun-hill-road",
+  "name": "Gun Hill Road",
+  "borough": "The Bronx",
+  "lines": [
+   "Dyre Avenue Line",
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "208",
+   "503"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "halsey-street",
+  "name": "Halsey Street",
+  "borough": "Queens",
+  "lines": [
+   "Canarsie Line",
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J29",
+   "L19"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "harlem-148th-street",
+  "name": "Harlem–148th Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Lenox Avenue Line"
+  ],
+  "mta_ids": [
+   "301"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "hewes-street",
+  "name": "Hewes Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "M14"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "high-street",
+  "name": "High Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A40"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "houston-street",
+  "name": "Houston Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "134"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "howard-beach-jfk-airport",
+  "name": "Howard Beach–JFK Airport",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H03"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "hoyt-street",
+  "name": "Hoyt Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eastern Parkway Line"
+  ],
+  "mta_ids": [
+   "233"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "hoyt-schermerhorn-streets",
+  "name": "Hoyt–Schermerhorn Streets",
+  "borough": "Brooklyn",
+  "lines": [
+   "Crosstown Line,Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A42"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "hunters-point-avenue",
+  "name": "Hunters Point Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "720"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "hunts-point-avenue",
+  "name": "Hunts Point Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "613"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "intervale-avenue",
+  "name": "Intervale Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "218"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "inwood-207th-street",
+  "name": "Inwood–207th Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line"
+  ],
+  "mta_ids": [
+   "A02"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "jackson-avenue",
+  "name": "Jackson Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "220"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "jackson-heights-roosevelt-avenue-74th-street",
+  "name": "Jackson Heights–Roosevelt Avenue/74th Street",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "jamaica-179th-street",
+  "name": "Jamaica–179th Street†",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "F01"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "jamaica-van-wyck",
+  "name": "Jamaica–Van Wyck",
+  "borough": "Queens",
+  "lines": [
+   "Archer Avenue Line"
+  ],
+  "mta_ids": [
+   "G07"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "jay-street-metrotech",
+  "name": "Jay Street–MetroTech",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "A41",
+   "R29"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "jefferson-street",
+  "name": "Jefferson Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L15"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "junction-boulevard",
+  "name": "Junction Boulevard",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "707"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "junius-street",
+  "name": "Junius Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "New Lots Line"
+  ],
+  "mta_ids": [
+   "254"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "kew-gardens-union-turnpike",
+  "name": "Kew Gardens–Union Turnpike",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "F06"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "kings-highway",
+  "name": "Kings Highway",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line",
+   "Culver Line",
+   "Sea Beach Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "kingsbridge-road",
+  "name": "Kingsbridge Road",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line",
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "406",
+   "D04"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "kingston-avenue",
+  "name": "Kingston Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eastern Parkway Line"
+  ],
+  "mta_ids": [
+   "249"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "kingston-throop-avenues",
+  "name": "Kingston–Throop Avenues",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A47"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "knickerbocker-avenue",
+  "name": "Knickerbocker Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Myrtle Avenue Line"
+  ],
+  "mta_ids": [
+   "M09"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "kosciuszko-street",
+  "name": "Kosciuszko Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J31"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "lafayette-avenue",
+  "name": "Lafayette Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A43"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "lexington-avenue-51st-street",
+  "name": "Lexington Avenue/51st Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "R11"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "lexington-avenue-59th-street",
+  "name": "Lexington Avenue/59th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [
+   "R11"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "liberty-avenue",
+  "name": "Liberty Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A52"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "livonia-avenue",
+  "name": "Livonia Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L26"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "longwood-avenue",
+  "name": "Longwood Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "614"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "lorimer-street",
+  "name": "Lorimer Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "L10",
+   "M13"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "marble-hill-225th-street",
+  "name": "Marble Hill–225th Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "106"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "marcy-avenue",
+  "name": "Marcy Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "M16"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "metropolitan-avenue-lorimer-street",
+  "name": "Metropolitan Avenue/Lorimer Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "G29"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "mets-willets-point",
+  "name": "Mets–Willets Point",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "702"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "middle-village-metropolitan-avenue",
+  "name": "Middle Village–Metropolitan Avenue†",
+  "borough": "Queens",
+  "lines": [
+   "Myrtle Avenue Line"
+  ],
+  "mta_ids": [
+   "M01"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "middletown-road",
+  "name": "Middletown Road",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "603"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "montrose-avenue",
+  "name": "Montrose Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L13"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "morgan-avenue",
+  "name": "Morgan Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L14"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "morris-park",
+  "name": "Morris Park",
+  "borough": "The Bronx",
+  "lines": [
+   "Dyre Avenue Line"
+  ],
+  "mta_ids": [
+   "505"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "morrison-avenue-soundview",
+  "name": "Morrison Avenue–Soundview",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "610"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "mosholu-parkway",
+  "name": "Mosholu Parkway",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "402"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "mount-eden-avenue",
+  "name": "Mount Eden Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "myrtle-avenue",
+  "name": "Myrtle Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "M11"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "myrtle-willoughby-avenues",
+  "name": "Myrtle–Willoughby Avenues",
+  "borough": "Brooklyn",
+  "lines": [
+   "Crosstown Line"
+  ],
+  "mta_ids": [
+   "G32"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "myrtle-wyckoff-avenues",
+  "name": "Myrtle–Wyckoff Avenues",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L17",
+   "M08"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "nassau-avenue",
+  "name": "Nassau Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Crosstown Line"
+  ],
+  "mta_ids": [
+   "G28"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "neck-road",
+  "name": "Neck Road",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D38"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "neptune-avenue",
+  "name": "Neptune Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [
+   "F39"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "nereid-avenue",
+  "name": "Nereid Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "204"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "nevins-street",
+  "name": "Nevins Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eastern Parkway Line"
+  ],
+  "mta_ids": [
+   "234"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "new-lots-avenue",
+  "name": "New Lots Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "257",
+   "L27"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "new-lots-avenue",
+  "name": "New Lots Avenue†",
+  "borough": "Brooklyn",
+  "lines": [
+   "New Lots Line"
+  ],
+  "mta_ids": [
+   "257",
+   "L27"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "newkirk-avenue-little-haiti",
+  "name": "Newkirk Avenue–Little Haiti",
+  "borough": "Brooklyn",
+  "lines": [
+   "Nostrand Avenue Line"
+  ],
+  "mta_ids": [
+   "246"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "newkirk-plaza",
+  "name": "Newkirk Plaza",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D31"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "ninth-avenue",
+  "name": "Ninth Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "West End Line"
+  ],
+  "mta_ids": [
+   "B12"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "northern-boulevard",
+  "name": "Northern Boulevard",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G16"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "norwood-avenue",
+  "name": "Norwood Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Jamaica Line"
+  ],
+  "mta_ids": [
+   "J21"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "norwood-205th-street",
+  "name": "Norwood–205th Street†",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line"
+  ],
+  "mta_ids": [
+   "D01"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "nostrand-avenue",
+  "name": "Nostrand Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Eastern Parkway Line",
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "248",
+   "A46"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "ocean-parkway",
+  "name": "Ocean Parkway",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D41"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "ozone-park-lefferts-boulevard",
+  "name": "Ozone Park–Lefferts Boulevard†",
+  "borough": "Queens",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A65"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "park-place",
+  "name": "Park Place",
+  "borough": "Brooklyn",
+  "lines": [
+   "Franklin Avenue Line"
+  ],
+  "mta_ids": [
+   "228",
+   "S03"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "parkchester",
+  "name": "Parkchester",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "608"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "parkside-avenue",
+  "name": "Parkside Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D27"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "parsons-boulevard",
+  "name": "Parsons Boulevard",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "F03"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "pelham-bay-park",
+  "name": "Pelham Bay Park†",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "601"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "pelham-parkway",
+  "name": "Pelham Parkway",
+  "borough": "The Bronx",
+  "lines": [
+   "Dyre Avenue Line",
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "211",
+   "504"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "pennsylvania-avenue",
+  "name": "Pennsylvania Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "New Lots Line"
+  ],
+  "mta_ids": [
+   "255"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "president-street-medgar-evers-college",
+  "name": "President Street–Medgar Evers College",
+  "borough": "Brooklyn",
+  "lines": [
+   "Nostrand Avenue Line"
+  ],
+  "mta_ids": [
+   "241"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "prince-street",
+  "name": "Prince Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [
+   "R22"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "prospect-avenue",
+  "name": "Prospect Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line",
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "219",
+   "R34"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "prospect-park",
+  "name": "Prospect Park†",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line,Franklin Avenue Line"
+  ],
+  "mta_ids": [
+   "D26"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "queens-plaza",
+  "name": "Queens Plaza",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G21"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "ralph-avenue",
+  "name": "Ralph Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A49"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "rector-street",
+  "name": "Rector Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line",
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "139",
+   "R26"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "rockaway-avenue",
+  "name": "Rockaway Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line",
+   "New Lots Line"
+  ],
+  "mta_ids": [
+   "253",
+   "A50"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "rockaway-boulevard",
+  "name": "Rockaway Boulevard",
+  "borough": "Queens",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A61"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "rockaway-park-beach-116th-street",
+  "name": "Rockaway Park–Beach 116th Street†",
+  "borough": "Queens",
+  "lines": [
+   "Rockaway Line"
+  ],
+  "mta_ids": [
+   "H15"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "roosevelt-island",
+  "name": "Roosevelt Island",
+  "borough": "Manhattan",
+  "lines": [
+   "63rd Street Line"
+  ],
+  "mta_ids": [
+   "B06"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "saratoga-avenue",
+  "name": "Saratoga Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "New Lots Line"
+  ],
+  "mta_ids": [
+   "252"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "second-avenue",
+  "name": "Second Avenue",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "F14"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "seneca-avenue",
+  "name": "Seneca Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Myrtle Avenue Line"
+  ],
+  "mta_ids": [
+   "M06"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "seventh-avenue",
+  "name": "Seventh Avenue",
+  "borough": "Manhattan",
+  "lines": [
+   "Brighton Line",
+   "Culver Line",
+   "Sixth Avenue Line,Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "D14",
+   "D25",
+   "F24"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "sheepshead-bay",
+  "name": "Sheepshead Bay",
+  "borough": "Brooklyn",
+  "lines": [
+   "Brighton Line"
+  ],
+  "mta_ids": [
+   "D39"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "shepherd-avenue",
+  "name": "Shepherd Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A54"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "simpson-street",
+  "name": "Simpson Street",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "217"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "smith-ninth-streets",
+  "name": "Smith–Ninth Streets",
+  "borough": "Brooklyn",
+  "lines": [
+   "Culver Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "south-ferry-whitehall-street",
+  "name": "South Ferry/Whitehall Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway Line"
+  ],
+  "mta_ids": [
+   "142"
+  ],
+  "match": "approx"
+ },
+ {
+  "id": "spring-street",
+  "name": "Spring Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Eighth Avenue Line",
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "638",
+   "A33"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "st-lawrence-avenue",
+  "name": "St. Lawrence Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "609"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "steinway-street",
+  "name": "Steinway Street",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G19"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "sterling-street",
+  "name": "Sterling Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Nostrand Avenue Line"
+  ],
+  "mta_ids": [
+   "242"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "sutphin-boulevard",
+  "name": "Sutphin Boulevard",
+  "borough": "Queens",
+  "lines": [
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "F04"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "sutter-avenue",
+  "name": "Sutter Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L25"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "sutter-avenue-rutland-road",
+  "name": "Sutter Avenue–Rutland Road",
+  "borough": "Brooklyn",
+  "lines": [
+   "New Lots Line"
+  ],
+  "mta_ids": [
+   "251"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "third-avenue",
+  "name": "Third Avenue",
+  "borough": "Manhattan",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L05"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "third-avenue-138th-street",
+  "name": "Third Avenue–138th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "619"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "third-avenue-149th-street",
+  "name": "Third Avenue–149th Street",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "221"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "times-square-42nd-street",
+  "name": "Times Square–42nd Street†",
+  "borough": "Manhattan",
+  "lines": [
+   "42nd Street Line"
+  ],
+  "mta_ids": [
+   "127",
+   "725",
+   "902",
+   "R16"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "tremont-avenue",
+  "name": "Tremont Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Concourse Line"
+  ],
+  "mta_ids": [
+   "D07"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "union-street",
+  "name": "Union Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fourth Avenue Line"
+  ],
+  "mta_ids": [
+   "R32"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "utica-avenue",
+  "name": "Utica Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line"
+  ],
+  "mta_ids": [
+   "A48"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "van-cortlandt-park-242nd-street",
+  "name": "Van Cortlandt Park–242nd Street†",
+  "borough": "The Bronx",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "101"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "van-siclen-avenue",
+  "name": "Van Siclen Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Fulton Street Line",
+   "Jamaica Line",
+   "New Lots Line"
+  ],
+  "mta_ids": [
+   "256",
+   "A53",
+   "J23"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "vernon-boulevard-jackson-avenue",
+  "name": "Vernon Boulevard–Jackson Avenue",
+  "borough": "Queens",
+  "lines": [
+   "Flushing Line"
+  ],
+  "mta_ids": [
+   "721"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "wtc-cortlandt",
+  "name": "WTC Cortlandt",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line"
+  ],
+  "mta_ids": [
+   "138"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "wakefield-241st-street",
+  "name": "Wakefield–241st Street†",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "201"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "wall-street",
+  "name": "Wall Street",
+  "borough": "Manhattan",
+  "lines": [
+   "Broadway–Seventh Avenue Line",
+   "Lexington Avenue Line"
+  ],
+  "mta_ids": [
+   "230",
+   "419"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "west-farms-square-east-tremont-avenue",
+  "name": "West Farms Square–East Tremont Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "White Plains Road Line"
+  ],
+  "mta_ids": [
+   "214"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "west-fourth-street-washington-square",
+  "name": "West Fourth Street–Washington Square",
+  "borough": "Manhattan",
+  "lines": [
+   "Sixth Avenue Line,Eighth Avenue Line"
+  ],
+  "mta_ids": [],
+  "match": "none"
+ },
+ {
+  "id": "westchester-square-east-tremont-avenue",
+  "name": "Westchester Square–East Tremont Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "604"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "whitlock-avenue",
+  "name": "Whitlock Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "612"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "wilson-avenue",
+  "name": "Wilson Avenue",
+  "borough": "Brooklyn",
+  "lines": [
+   "Canarsie Line"
+  ],
+  "mta_ids": [
+   "L20"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "winthrop-street",
+  "name": "Winthrop Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Nostrand Avenue Line"
+  ],
+  "mta_ids": [
+   "243"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "woodhaven-boulevard",
+  "name": "Woodhaven Boulevard",
+  "borough": "Queens",
+  "lines": [
+   "Jamaica Line",
+   "Queens Boulevard Line"
+  ],
+  "mta_ids": [
+   "G11",
+   "J15"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "woodlawn",
+  "name": "Woodlawn†",
+  "borough": "The Bronx",
+  "lines": [
+   "Jerome Avenue Line"
+  ],
+  "mta_ids": [
+   "401"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "york-street",
+  "name": "York Street",
+  "borough": "Brooklyn",
+  "lines": [
+   "Sixth Avenue Line"
+  ],
+  "mta_ids": [
+   "F18"
+  ],
+  "match": "exact"
+ },
+ {
+  "id": "zerega-avenue",
+  "name": "Zerega Avenue",
+  "borough": "The Bronx",
+  "lines": [
+   "Pelham Line"
+  ],
+  "mta_ids": [
+   "606"
+  ],
+  "match": "exact"
+ }
+]
